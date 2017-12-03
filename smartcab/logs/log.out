@@ -1,0 +1,5942 @@
+
+/-------------------------
+| Training trial 1
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.9500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.58)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'right', None)
+Agent followed the waypoint right. (rewarded 1.24)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent followed the waypoint forward. (rewarded 1.13)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.51)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', 'left', None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.45)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'right')
+Agent properly idled at a red light. (rewarded 0.95)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 1.78)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent followed the waypoint forward. (rewarded 1.70)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 2.73)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.92)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -4.98)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'right', None)
+Agent drove right instead of forward. (rewarded 1.83)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.91)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'forward')
+Agent followed the waypoint right. (rewarded 2.09)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, 'forward')
+Agent properly idled at a red light. (rewarded 1.58)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.74)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent drove right instead of forward. (rewarded 0.44)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', 'forward', None)
+Agent drove right instead of left. (rewarded -0.23)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.53)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent followed the waypoint right. (rewarded 2.17)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 0.29)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', 'right')
+Agent drove forward instead of right. (rewarded 0.98)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.17)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove forward instead of right. (rewarded 0.86)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.84)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'left', None)
+Agent followed the waypoint right. (rewarded 0.53)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', 'left')
+Agent drove left instead of right. (rewarded 0.17)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.82)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.58)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', 'left', 'left')
+Agent properly idled at a red light. (rewarded 0.42)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 2
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.9000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent properly idled at a red light. (rewarded 1.05)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.85)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent followed the waypoint right. (rewarded 1.00)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 0.43)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'forward', 'left')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.57)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.72)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.71)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.64)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.52)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded 1.68)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded -0.11)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', 'left')
+Agent followed the waypoint right. (rewarded 2.12)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'right', 'left', 'left')
+Agent drove left instead of right. (rewarded 0.66)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', 'left')
+Agent followed the waypoint right. (rewarded 1.79)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving forward through a red light. (rewarded -10.27)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.19)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove forward instead of right. (rewarded 1.06)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'right', 'left', None)
+Agent followed the waypoint right. (rewarded 1.72)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent followed the waypoint forward. (rewarded 2.12)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.79)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 3
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.8500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded 2.51)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'left')
+Agent attempted driving forward through a red light. (rewarded -9.34)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', 'left', 'left')
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.24)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent attempted driving forward through a red light. (rewarded -10.77)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'right', 'left')
+Agent drove right instead of forward. (rewarded 0.45)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.72)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', None)
+Agent drove left instead of forward. (rewarded 0.09)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent followed the waypoint right. (rewarded 2.09)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent followed the waypoint forward. (rewarded 1.97)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, None)
+Agent properly idled at a red light. (rewarded 1.16)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'right')
+Agent followed the waypoint forward. (rewarded 2.47)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove forward instead of right. (rewarded 1.70)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.05)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded 2.04)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving forward through a red light. (rewarded -9.18)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.60)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent drove forward instead of left. (rewarded -0.23)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', None, None)
+Agent drove forward instead of left. (rewarded 0.10)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'right', None)
+Agent drove right instead of left. (rewarded 0.77)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', 'forward')
+Agent properly idled at a red light. (rewarded 1.74)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -10.63)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.72)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 0.50)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, 'forward')
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -20.04)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'forward')
+Agent drove right instead of left. (rewarded -0.78)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 4
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.8000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, 'left')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.05)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', 'left')
+Agent attempted driving forward through a red light. (rewarded -9.30)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded 1.06)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.88)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 1.76)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.48)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.58)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.47)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.59)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.58)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -4.43)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', None)
+Agent drove forward instead of right. (rewarded 0.76)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -20.44)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 0.09)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', None)
+Agent drove left instead of right. (rewarded -0.26)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent drove forward instead of left. (rewarded -0.27)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', None)
+Agent drove forward instead of left. (rewarded -0.27)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.52)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 0.81)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 0.89)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 5
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.7500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent drove right instead of left. (rewarded 0.44)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.01)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'right', None)
+Agent drove left instead of right. (rewarded 1.62)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.68)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'left', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.77)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'left', None)
+Agent drove right instead of forward. (rewarded 0.47)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 2.44)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.71)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'left', None)
+Agent drove forward instead of left. (rewarded 0.10)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', None, None)
+Agent attempted driving forward through a red light. (rewarded -10.10)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', 'right', None)
+Agent attempted driving forward through a red light. (rewarded -10.59)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent drove right instead of left. (rewarded 0.60)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.31)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', 'left')
+Agent attempted driving left through a red light. (rewarded -10.47)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.93)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving forward through a red light. (rewarded -10.30)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded -0.08)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.87)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.76)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 0.76)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 6
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.7000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 1.13)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', 'left')
+Agent attempted driving forward through a red light. (rewarded -10.67)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving forward through a red light. (rewarded -9.48)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.15)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'right', None)
+Agent drove left instead of right. (rewarded 1.55)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.78)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 1.51)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, 'right')
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.88)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'right', None)
+Agent followed the waypoint right. (rewarded 2.15)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 1.85)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.33)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 1.46)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, 'left')
+Agent properly idled at a red light. (rewarded 0.47)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.17)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 1.38)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.40)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'right', None)
+Agent drove right instead of left. (rewarded 0.81)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent followed the waypoint right. (rewarded 2.56)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.78)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 0.40)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent properly idled at a red light. (rewarded -0.11)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.86)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'right', None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.94)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -9.21)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.73)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 7
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.6500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.00)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 1.11)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'right', 'left')
+Agent properly idled at a red light. (rewarded 2.42)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'forward', 'left')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.79)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 1.55)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 1.83)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded -0.04)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.20)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.31)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent followed the waypoint right. (rewarded 2.60)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent followed the waypoint right. (rewarded 0.93)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.67)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 0.86)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent followed the waypoint right. (rewarded 1.18)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'forward', None)
+Agent followed the waypoint forward. (rewarded 2.10)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'left')
+Agent drove right instead of forward. (rewarded 1.36)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent drove forward instead of left. (rewarded 0.28)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', 'forward', 'left')
+Agent properly idled at a red light. (rewarded 1.19)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent drove right instead of left. (rewarded 0.89)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove forward instead of right. (rewarded 0.73)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 8
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.6000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent drove right instead of left. (rewarded 0.48)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.74)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.86)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.17)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.25)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'forward', None)
+Agent drove forward instead of left. (rewarded 0.51)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.79)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent properly idled at a red light. (rewarded 1.89)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.31)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'right', 'forward')
+Agent attempted driving forward through a red light. (rewarded -9.08)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.89)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.74)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.22)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', 'left', None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.00)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'left')
+Agent drove right instead of forward. (rewarded 0.97)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, None)
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -19.46)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent drove right instead of left. (rewarded 1.00)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'right', None, 'left')
+Agent drove right instead of left. (rewarded -0.46)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'right', 'left')
+Agent attempted driving left through a red light. (rewarded -10.25)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded -0.45)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 9
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.5500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', 'right', 'forward')
+Agent attempted driving forward through a red light. (rewarded -10.60)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -10.16)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -9.06)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'forward')
+Agent drove forward instead of left. (rewarded 1.74)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 2.37)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'forward', 'right')
+Agent drove right instead of forward. (rewarded 0.18)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.34)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, None)
+Agent properly idled at a red light. (rewarded 1.39)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', 'right', None)
+Agent attempted driving forward through a red light. (rewarded -10.26)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', None)
+Agent properly idled at a red light. (rewarded 1.21)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.15)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, None)
+Agent drove right instead of forward. (rewarded 0.21)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', None)
+Agent drove right instead of left. (rewarded 0.96)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent properly idled at a red light. (rewarded 1.04)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.68)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.47)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving forward through a red light. (rewarded -10.95)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, None)
+Agent drove forward instead of right. (rewarded 1.32)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.53)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.53)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.09)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent drove right instead of left. (rewarded 0.48)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.50)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', 'left')
+Agent followed the waypoint right. (rewarded 0.77)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.71)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', None)
+Agent drove left instead of right. (rewarded 0.04)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.63)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, 'forward')
+Agent properly idled at a red light. (rewarded 0.32)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent followed the waypoint right. (rewarded 0.32)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', 'left')
+Agent drove left instead of right. (rewarded -0.56)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 10
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.5000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', 'left', 'left')
+Agent drove right instead of forward. (rewarded 1.09)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'right', None)
+Agent followed the waypoint left. (rewarded 1.23)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent attempted driving forward through a red light. (rewarded -9.05)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded -0.02)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', None)
+Agent attempted driving forward through a red light. (rewarded -9.74)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent drove left instead of right. (rewarded 0.68)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 1.53)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.64)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'right', 'left', None)
+Agent attempted driving left through a red light. (rewarded -9.96)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 1.87)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'left')
+Agent attempted driving left through a red light. (rewarded -10.75)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent followed the waypoint forward. (rewarded 1.13)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', 'left')
+Agent properly idled at a red light. (rewarded 0.70)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove forward instead of right. (rewarded 0.47)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'right', 'left')
+Agent drove forward instead of right. (rewarded 1.21)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent followed the waypoint right. (rewarded 0.88)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.57)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.08)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 0.51)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'right', None)
+Agent attempted driving forward through a red light. (rewarded -9.80)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 11
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.4500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent drove right instead of left. (rewarded 0.82)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', 'right')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.51)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.77)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', None)
+Agent drove left instead of right. (rewarded 0.72)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 0.16)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent followed the waypoint right. (rewarded 2.59)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.39)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.56)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 0.09)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', None)
+Agent attempted driving forward through a red light. (rewarded -10.83)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'right', None)
+Agent drove left instead of right. (rewarded 1.50)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.75)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove forward instead of right. (rewarded 0.59)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, 'left')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.84)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.17)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, 'left')
+Agent attempted driving forward through a red light. (rewarded -9.35)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded 1.32)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', None)
+Agent followed the waypoint right. (rewarded 1.16)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.14)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, 'right')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.34)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 1.34)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.12)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.51)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent properly idled at a red light. (rewarded 1.24)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.19)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent properly idled at a red light. (rewarded 0.43)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.96)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove forward instead of right. (rewarded -0.48)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove right instead of forward. (rewarded -0.39)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', None, 'right')
+Agent drove right instead of left. (rewarded -0.00)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 12
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.4000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent followed the waypoint right. (rewarded 2.96)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.03)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.70)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.74)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -10.31)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -9.11)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.51)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.87)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving forward through a red light. (rewarded -9.04)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove forward instead of right. (rewarded 1.41)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.30)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.23)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 0.63)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'right', None)
+Agent drove right instead of left. (rewarded 1.07)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.11)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'left')
+Agent properly idled at a red light. (rewarded 1.54)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded 1.30)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'left', None)
+Agent attempted driving left through a red light. (rewarded -9.48)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.41)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.58)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.72)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.46)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent drove left instead of right. (rewarded 0.83)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.29)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, 'left')
+Agent followed the waypoint right. (rewarded 1.57)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', 'forward', None)
+Agent drove right instead of forward. (rewarded 0.95)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'forward', 'left')
+Agent properly idled at a red light. (rewarded 0.86)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', 'left')
+Agent attempted driving left through a red light. (rewarded -10.90)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'right', None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.99)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent drove right instead of left. (rewarded -0.45)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 13
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.3500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', 'left', 'left')
+Agent followed the waypoint left. (rewarded 2.32)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', None)
+Agent drove left instead of forward. (rewarded 1.00)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 1.57)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.61)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'right', 'left', None)
+Agent properly idled at a red light. (rewarded 1.10)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.33)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.75)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent followed the waypoint right. (rewarded 1.50)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.55)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.85)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.23)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, 'forward')
+Agent drove right instead of forward. (rewarded 0.83)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.32)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', 'left')
+Agent drove right instead of left. (rewarded -0.14)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.03)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 0.69)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'forward', 'left')
+Agent drove right instead of forward. (rewarded 0.15)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'right', None)
+Agent attempted driving left through a red light. (rewarded -10.03)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'right')
+Agent attempted driving forward through a red light. (rewarded -9.56)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 0.41)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 14
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.3000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent drove right instead of forward. (rewarded 1.73)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'right', None)
+Agent followed the waypoint left. (rewarded 2.72)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent properly idled at a red light. (rewarded 1.33)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.05)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.39)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, None)
+Agent drove left instead of forward. (rewarded 0.59)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.85)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.19)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'right')
+Agent properly idled at a red light. (rewarded 0.74)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.67)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.51)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove forward instead of right. (rewarded 0.79)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent followed the waypoint right. (rewarded 1.45)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 1.24)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', 'right')
+Agent followed the waypoint forward. (rewarded 1.24)
+40% of time remaining to reach destination.
+
+Trial Completed!
+Agent reached the destination.
+
+/-------------------------
+| Training trial 15
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.2500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove right instead of forward. (rewarded 1.11)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.18)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.22)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', None, 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.81)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'right')
+Agent drove forward instead of left. (rewarded 0.75)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent drove right instead of left. (rewarded 0.82)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, None)
+Agent drove forward instead of left. (rewarded 0.34)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.57)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'right', None)
+Agent drove left instead of forward. (rewarded 0.31)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.50)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.71)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'right', None, None)
+Agent drove forward instead of right. (rewarded 0.46)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent drove left instead of right. (rewarded 1.43)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', None, 'forward')
+Agent drove right instead of forward. (rewarded 0.87)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent drove right instead of left. (rewarded 0.76)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.39)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.44)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove right instead of forward. (rewarded 0.07)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', 'left', 'forward')
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.29)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'forward')
+Agent drove right instead of left. (rewarded -0.18)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.69)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.09)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', None)
+Agent drove left instead of forward. (rewarded -0.04)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 1.15)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, 'right')
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -20.30)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 16
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.2000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', 'left')
+Agent drove forward instead of right. (rewarded 0.50)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.70)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.71)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove forward instead of right. (rewarded 1.47)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.53)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.68)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.26)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'forward', None)
+Agent followed the waypoint right. (rewarded 0.93)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'forward', None)
+Agent drove right instead of forward. (rewarded 1.14)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 2.28)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'forward', None)
+Agent drove left instead of forward. (rewarded -0.01)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.59)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, None)
+Agent properly idled at a red light. (rewarded 0.64)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent followed the waypoint right. (rewarded 1.65)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', 'right', None)
+Agent properly idled at a red light. (rewarded 1.26)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.62)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded -0.47)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded -0.24)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 2.06)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.68)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 17
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.1500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', 'forward', 'left')
+Agent followed the waypoint forward. (rewarded 1.88)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.13)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.39)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.08)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.80)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.54)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'right', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.23)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.02)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.76)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.11)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.24)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.38)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.60)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -4.81)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.01)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', 'left', None)
+Agent followed the waypoint left. (rewarded 1.25)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove right instead of forward. (rewarded 1.10)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.70)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'right', None)
+Agent followed the waypoint left. (rewarded 1.47)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded -0.03)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'left', None)
+Agent drove left instead of right. (rewarded 0.57)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.72)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.94)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.27)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'right', None)
+Agent followed the waypoint left. (rewarded 0.28)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 18
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.1000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, None)
+Agent properly idled at a red light. (rewarded 1.98)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, 'forward')
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -20.55)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', None, 'forward')
+Agent properly idled at a red light. (rewarded 2.37)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.24)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 2.87)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.13)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, 'left')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.41)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.89)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.40)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded -0.04)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.17)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', 'left', None)
+Agent drove forward instead of left. (rewarded -0.13)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 0.28)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.62)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.48)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, 'forward')
+Agent attempted driving forward through a red light. (rewarded -9.64)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.97)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent followed the waypoint right. (rewarded 1.93)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.89)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', 'forward')
+Agent followed the waypoint forward. (rewarded 1.54)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.47)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.96)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', 'left', None)
+Agent drove left instead of forward. (rewarded 0.03)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.20)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.56)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.14)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded -0.21)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.95)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent followed the waypoint right. (rewarded 0.49)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -4.01)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 19
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0500; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 1.73)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, 'left')
+Agent drove left instead of right. (rewarded 0.57)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', 'forward')
+Agent attempted driving forward through a red light. (rewarded -10.47)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.67)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.46)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.39)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded -0.08)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.18)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, None)
+Agent attempted driving left through a red light. (rewarded -9.45)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.63)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.19)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', 'left')
+Agent drove left instead of right. (rewarded 1.04)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'right', None)
+Agent attempted driving left through a red light. (rewarded -9.72)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.51)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.75)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.40)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.77)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.10)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded -0.21)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.13)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.40)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, None)
+Agent attempted driving left through a red light. (rewarded -10.22)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.84)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.27)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', None, None)
+Agent attempted driving left through a red light. (rewarded -9.43)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 20
+\-------------------------
+
+Simulating trial. . . 
+epsilon = -0.0000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'left', 'left')
+Agent properly idled at a red light. (rewarded 0.19)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, 'left')
+Agent properly idled at a red light. (rewarded 0.74)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.15)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.98)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.69)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.79)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 2.18)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', 'left', None)
+Agent drove right instead of forward. (rewarded 0.96)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.27)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.79)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', None, None)
+Agent followed the waypoint left. (rewarded 1.53)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.63)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.92)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 1.02)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, None)
+Agent attempted driving left through a red light. (rewarded -10.70)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.15)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, None)
+Agent drove left instead of right. (rewarded 0.54)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 0.52)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, None)
+Agent followed the waypoint left. (rewarded 1.57)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.63)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 1
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', 'left', 'forward')
+Agent drove right instead of left. (rewarded 0.41)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, None)
+Agent drove left instead of forward. (rewarded 0.19)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.45)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.65)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.74)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.75)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'left')
+Agent drove left instead of right. (rewarded -0.03)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.29)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'right')
+Agent attempted driving forward through a red light. (rewarded -10.33)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.41)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.09)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'left')
+Agent drove left instead of right. (rewarded 0.64)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 1.25)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.93)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', 'forward')
+Agent attempted driving left through a red light. (rewarded -10.50)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.06)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'right', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.56)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'right', 'right', None)
+Agent drove left instead of right. (rewarded -0.40)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.38)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.27)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.05)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.89)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'left', None)
+Agent drove left instead of right. (rewarded -0.07)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 0.53)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.92)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 2
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.02)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'left', 'left')
+Agent drove left instead of right. (rewarded 1.10)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.70)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'right', None, 'left')
+Agent attempted driving forward through a red light. (rewarded -10.88)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.20)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'forward', 'left', 'left')
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -19.14)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', 'left')
+Agent drove right instead of left. (rewarded -0.08)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.19)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 1.44)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 2.01)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.33)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.31)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.80)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded 0.50)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.01)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.82)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 0.16)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'left', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.09)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', 'forward')
+Agent properly idled at a red light. (rewarded 0.52)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'left', 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.77)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 3
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.53)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', None)
+Agent attempted driving forward through a red light. (rewarded -9.05)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.73)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.73)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.23)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.43)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.68)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.52)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.33)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.90)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.48)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.89)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.14)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.00)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, None)
+Agent followed the waypoint left. (rewarded 2.40)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', None)
+Agent followed the waypoint left. (rewarded 2.35)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.68)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.27)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.30)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'right', None)
+Agent drove left instead of right. (rewarded 0.70)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.84)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.69)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, 'left')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.95)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', None, None)
+Agent drove right instead of left. (rewarded -0.78)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.20)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 4
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 2.62)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'forward', None)
+Agent drove left instead of forward. (rewarded 1.87)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.91)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.69)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'forward', None)
+Agent properly idled at a red light. (rewarded 0.82)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.78)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', 'forward', 'left')
+Agent attempted driving right through traffic and cause a minor accident. (rewarded -20.80)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.81)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, 'forward')
+Agent drove forward instead of left. (rewarded 1.28)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 1.19)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', 'forward', 'left')
+Agent drove left instead of forward. (rewarded 1.61)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.27)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.05)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 1.13)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.50)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.91)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 1.32)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', None, 'right')
+Agent drove right instead of left. (rewarded 1.06)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 0.20)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.01)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 5
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 1.46)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'left', 'right')
+Agent idled at a green light with no oncoming traffic. (rewarded -4.76)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'left', None)
+Agent drove left instead of forward. (rewarded 1.16)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'right')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.19)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.71)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'forward', None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.93)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', 'left')
+Agent attempted driving left through a red light. (rewarded -10.89)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 1.65)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.09)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.70)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.98)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', None, 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.25)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.27)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, 'left')
+Agent drove left instead of forward. (rewarded 0.52)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', None, 'left')
+Agent drove left instead of right. (rewarded 0.19)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.53)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.36)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.33)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', 'left')
+Agent attempted driving left through a red light. (rewarded -10.38)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.92)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', None, 'left')
+Agent followed the waypoint forward. (rewarded 0.49)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'right', 'forward', 'left')
+Agent drove left instead of forward. (rewarded 0.86)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.94)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.67)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.90)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 6
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'right', None)
+Agent drove left instead of right. (rewarded 1.91)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'forward', 'left')
+Agent followed the waypoint left. (rewarded 2.57)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.37)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.63)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -9.92)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.04)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 1.03)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'right', 'right', None)
+Agent drove forward instead of right. (rewarded 0.20)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.09)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.02)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, 'forward')
+Agent followed the waypoint right. (rewarded 2.23)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'forward', None)
+Agent properly idled at a red light. (rewarded 1.31)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, 'left')
+Agent attempted driving left through a red light. (rewarded -9.59)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, 'left')
+Agent attempted driving left through a red light. (rewarded -10.79)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'forward', 'left')
+Agent followed the waypoint right. (rewarded 1.63)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', 'forward', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.34)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.21)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', 'forward')
+Agent drove right instead of forward. (rewarded -0.18)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.19)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 1.30)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'left', 'forward', None)
+Agent drove left instead of right. (rewarded -0.36)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -9.41)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.81)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.19)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.56)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 7
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.15)
+96% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 2.90)
+92% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 1.36)
+88% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'left', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.19)
+84% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', 'left', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.38)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'right', 'left', 'forward')
+Agent drove right instead of forward. (rewarded 0.10)
+76% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'right', 'forward', None)
+Agent idled at a green light with no oncoming traffic. (rewarded -5.93)
+72% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', 'forward', None)
+Agent followed the waypoint left. (rewarded 2.90)
+68% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 0.50)
+64% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, None)
+Agent drove left instead of right. (rewarded 1.44)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.72)
+56% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'forward', None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.55)
+52% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.96)
+48% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.14)
+44% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', 'left', None)
+Agent followed the waypoint left. (rewarded 2.28)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.32)
+36% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.01)
+32% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.46)
+28% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.20)
+24% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.79)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.05)
+16% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 1.88)
+12% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -20.05)
+8% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, 'left')
+Agent drove forward instead of left. (rewarded 0.25)
+4% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 0.27)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 8
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', None, 'left')
+Agent drove left instead of right. (rewarded 0.72)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', None)
+Agent followed the waypoint left. (rewarded 2.59)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('right', 'green', 'forward', 'forward', None)
+Agent drove left instead of right. (rewarded 0.74)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', 'left')
+Agent followed the waypoint forward. (rewarded 2.44)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded 1.28)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded -0.00)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'forward', None, None)
+Agent followed the waypoint left. (rewarded 2.57)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'right')
+Agent attempted driving forward through a red light. (rewarded -9.87)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.71)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.62)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.88)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, None)
+Agent drove left instead of forward. (rewarded 0.34)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'right', None)
+Agent attempted driving forward through a red light. (rewarded -10.59)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded 0.90)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 2.35)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, 'right')
+Agent drove right instead of left. (rewarded 1.04)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded -0.11)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'left')
+Agent drove left instead of right. (rewarded -0.56)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.02)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 0.19)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 9
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'forward', 'forward')
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -39.33)
+97% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -9.78)
+93% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.12)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.31)
+87% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, 'forward')
+Agent attempted driving left through a red light. (rewarded -10.55)
+83% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', 'forward', 'forward')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.33)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'left', None, 'forward')
+Agent drove right instead of forward. (rewarded 0.32)
+77% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'right', None)
+Agent attempted driving left through a red light. (rewarded -9.10)
+73% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'forward', 'right')
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -39.57)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', None)
+Agent properly idled at a red light. (rewarded 2.82)
+67% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.88)
+63% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'forward', None)
+Agent followed the waypoint left. (rewarded 1.29)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'left', None, 'left')
+Agent attempted driving forward through a red light. (rewarded -9.46)
+57% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'left', 'left')
+Agent drove right instead of forward. (rewarded 0.31)
+53% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, 'left')
+Agent followed the waypoint left. (rewarded 0.90)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', 'forward', 'left', 'right')
+Agent idled at a green light with no oncoming traffic. (rewarded -4.81)
+47% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', 'forward', 'left', None)
+Agent attempted driving left through a red light with traffic and cause a major accident. (rewarded -40.02)
+43% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'left', None)
+Agent attempted driving left through a red light. (rewarded -10.44)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.12)
+37% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', None)
+Agent drove left instead of forward. (rewarded 0.83)
+33% of time remaining to reach destination.
+
+/-------------------
+| Step 20 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'right', None, None)
+Agent attempted driving left through a red light. (rewarded -10.97)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 21 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'forward', None)
+Agent drove left instead of right. (rewarded 0.51)
+27% of time remaining to reach destination.
+
+/-------------------
+| Step 22 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 2.08)
+23% of time remaining to reach destination.
+
+/-------------------
+| Step 23 Results
+\-------------------
+
+Agent previous state: ('left', 'red', 'left', 'left', None)
+Agent attempted driving forward through a red light. (rewarded -9.37)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 24 Results
+\-------------------
+
+Agent previous state: ('left', 'red', None, 'left', None)
+Agent drove right instead of left. (rewarded 0.12)
+17% of time remaining to reach destination.
+
+/-------------------
+| Step 25 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 1.38)
+13% of time remaining to reach destination.
+
+/-------------------
+| Step 26 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, None, None)
+Agent followed the waypoint left. (rewarded 0.99)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 27 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'right', None)
+Agent drove left instead of forward. (rewarded 0.31)
+7% of time remaining to reach destination.
+
+/-------------------
+| Step 28 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, 'forward', 'forward')
+Agent followed the waypoint right. (rewarded 1.98)
+3% of time remaining to reach destination.
+
+/-------------------
+| Step 29 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.75)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Testing trial 10
+\-------------------------
+
+Simulating trial. . . 
+epsilon = 0.0000; alpha = 0.0000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', None, 'forward')
+Agent idled at a green light with no oncoming traffic. (rewarded -5.33)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Agent previous state: ('left', 'green', 'left', 'right', None)
+Agent drove forward instead of left. (rewarded 1.56)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 0.99)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, 'forward', None)
+Agent properly idled at a red light. (rewarded 2.06)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Agent previous state: ('forward', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.37)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, None, None)
+Agent drove left instead of forward. (rewarded 0.05)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -10.80)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.10)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 1.50)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, None)
+Agent properly idled at a red light. (rewarded 1.70)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Agent previous state: ('right', 'red', None, None, None)
+Agent attempted driving left through a red light. (rewarded -9.18)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, 'right', None)
+Agent drove left instead of right. (rewarded -0.06)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Agent previous state: ('left', 'green', None, 'left', None)
+Agent followed the waypoint left. (rewarded 1.59)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Agent previous state: ('forward', 'green', None, 'forward', None)
+Agent drove left instead of forward. (rewarded -0.04)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'forward', None, 'forward')
+Agent attempted driving forward through a red light with traffic and cause a major accident. (rewarded -40.74)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, 'forward')
+Agent attempted driving left through traffic and cause a minor accident. (rewarded -19.17)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.68)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', 'left', None)
+Agent followed the waypoint right. (rewarded 1.86)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Agent previous state: ('right', 'red', 'left', None, None)
+Agent attempted driving left through a red light. (rewarded -10.07)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Agent previous state: ('right', 'green', None, None, None)
+Agent drove left instead of right. (rewarded 0.80)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+Simulation ended. . . 
